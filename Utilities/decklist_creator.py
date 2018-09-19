@@ -38,7 +38,10 @@ def main():
 
 def deckcreate():
         print("Deck creation (placeholder)")
+        filename = input ("filename: ")
+        with open (filename, "w") as f:
+            f.write (input ())
         selection=input("Please select the number of the dank option you would like: ") 
         print (selection)
 main()
-#deckcreate()
+#deckcreate() 
